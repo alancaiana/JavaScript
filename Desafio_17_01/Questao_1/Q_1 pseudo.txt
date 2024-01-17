@@ -1,0 +1,44 @@
+inicio
+
+leia (eleitoresMunicipio)
+leia (input1)
+eleitoresMunicipio <- input1
+
+leia (vBrancos)
+leia (input2)
+vBrancos <- input2
+
+leia (vNulos)
+leia (input3)
+vNulos <- input3
+
+leia (vValidos)
+leia (input4)
+vValidos <- input4
+
+leia (vTotais)
+
+vTotais = vBrancos+vNulos+vValidos
+
+se eleitoresMunicipio == vTotais
+
+leia (percentualBrancos)
+leia (percentualNulos)
+leia (percentualValidos)
+
+percentualBrancos = vBrancos / vTotais * 100
+percentualNulos = vNulos / vTotais * 100
+percentualValidos = vValidos / vTotais * 100
+
+escreva "Resultado da eleição: " + "<br>" + "Taxa de votos Brancos: " + percentualBrancos + "<br>" + "Taxa de votos Nulos: " + percentualNulos + "<br>" + "Taxa de votos Válidos: " + percentualValidos
+
+senao
+	escreva "A eleição foi fraudada."
+
+
+
+fimalgoritimo
+
+	
+	
+
