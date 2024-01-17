@@ -4,9 +4,9 @@ LEIA (salario_bruto) <- INPUT
 LEIA (IRPF);
 LEIA (IRPF1)
 LEIA IRPF2 = 0.075;
-var IRPF3 = 0.15;
-var IRPF4 = 0.225
-var IRPF5 = 0.275
+LEIA IRPF3 = 0.15;
+LEIA IRPF4 = 0.225
+LEIA IRPF5 = 0.275
 
 
 SE(salario_bruto <= 2.112){
