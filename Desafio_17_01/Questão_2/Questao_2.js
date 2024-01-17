@@ -1,3 +1,26 @@
+/*
+inicio
+
+leia (m)
+leia (input)
+m <- input
+
+leia (valor) 
+valor <- 1.30
+
+leia (valorTotal)
+valorTotal <- m * valor
+
+se m >= 12
+	valorTotal = m * 1.00
+	escreva valorTotal
+senao
+	escreva valorTotal
+
+fimalgoritimo
+*/
+
+
 function compra(){
     var m = Number(document.getElementById("m").value);
     var valor = 1.30
